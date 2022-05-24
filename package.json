@@ -1,0 +1,23 @@
+{
+  "name": "copyfiles2",
+  "version": "2.4.1",
+  "description": "copy some files",
+  "main": "index.js",
+  "bin": {
+    "copyfiles2": "./copyfiles2"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "mkdirp": "^1.0.4",
+    "yargs": "^16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calvinmetcalf/copyfiles.git"
+  },
+  "devDependencies": {
+    "rimraf": "^2.2.6"
+  }
+}
