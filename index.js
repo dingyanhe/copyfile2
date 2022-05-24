@@ -14,7 +14,7 @@ const writeFn = new Stream.Writable({
   }
 })
 
-exports.copyfiles3 = (args, config, callback) => {
+exports.copyfiles-v3 = (args, config, callback) => {
   if (typeof config === 'function') {
     callback = config;
     config = {
