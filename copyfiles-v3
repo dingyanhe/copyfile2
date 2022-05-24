@@ -2,7 +2,7 @@
 const args = require('yargs');
 const path = require('path');
 
-const { copyfiles-v3 } = require('.');
+const { copyfiles3 } = require('.');
 
 args.alias('u', 'up')
   .describe('u', 'slice a path off the bottom of the paths')
@@ -38,7 +38,7 @@ const argv = args.argv;
 // if (argv.flat) {
 //   argv.up = true;
 // }
-copyfiles-v3(argv._, argv, function (err) {
+copyfiles3(argv._, argv, function (err) {
   if (err) {
     console.error(err);
     process.exit(1);
